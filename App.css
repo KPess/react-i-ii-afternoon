@@ -1,0 +1,104 @@
+body {
+  background-color: #222222;
+  margin: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #222222;
+  color: black;
+  height: 100vh;
+}
+
+.slide {
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5vw 5vh;
+  margin-bottom: 1vh;
+}
+
+.names {
+  background-color: #ebebeb;
+  height: 40vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-weight: 200;
+  font-family: "Arial Narrow Bold", sans-serif;
+  margin: 5vw 5vh;
+}
+
+.fullName {
+  font-weight: 1000;
+  color: rgb(0, 0, 0);
+}
+
+.info {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+
+.place {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+}
+
+.employer {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+  margin-bottom: 2.5vh;
+}
+
+.counter {
+  color: rgb(0, 0, 0);
+  background-color: #ebebeb;
+  margin: 5vw 5vh;
+}
+
+.header {
+  background-color: #34a5da;
+  min-height: 5vh;
+  max-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 5;
+  color: rgb(7, 7, 7);
+  padding: 2vh 5vw;
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 0;
+}
+
+.previous {
+  color: white;
+  border: none;
+  background-color: #222222;
+  font-size: x-large;
+}
+
+.movies {
+  margin-top: 0px;
+}
+
+.next {
+  color: white;
+  border: none;
+  background-color: #222222;
+  font-size: x-large;
+}
